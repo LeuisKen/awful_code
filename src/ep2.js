@@ -20,7 +20,7 @@ var setCallTime = function(callback, times) {
 // 测试用例
 
 var log = function() {
-  console.log.apply(console, arguments[0])
+  console.log.apply(console, arguments)
   return arguments[0]
 }
 
