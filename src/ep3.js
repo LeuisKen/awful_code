@@ -3,7 +3,7 @@
 /**
  * 传入一个时间戳，返回特定格式化的时间
  * @param {number} timestamp - 指定的时间戳
- * @return {func} 格式化之后的时间
+ * @return {string} 格式化之后的时间
  */
 
 function getReadableDate(timestamp) {
