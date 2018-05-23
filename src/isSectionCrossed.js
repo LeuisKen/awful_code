@@ -7,6 +7,7 @@
 
 /**
  * 判断多个数据区间是否存在交集
+ * 算法设计：STLighter
  *
  * @param {Array<Array<number>>} sections 区间
  * @return {boolean} 是否存在交集
