@@ -1,0 +1,25 @@
+{
+  "name": "javascript-code-collection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha",
+    "test:cov": "istanbul cover ./node_modules/mocha/bin/_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeuisKen/javascript-code-collection.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LeuisKen/javascript-code-collection/issues"
+  },
+  "homepage": "https://github.com/LeuisKen/javascript-code-collection#readme",
+  "dependencies": {
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0"
+  }
+}

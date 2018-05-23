@@ -13,7 +13,7 @@
  * 输出的对象层级顺序为keys中字符串key的顺序
  * @return {Array} 保存具有树形结构的对象
  */
-function plain2Tree(tableData, keys) {
+module.exports = function plain2Tree(tableData, keys) {
     let hashTable = {};
     let res = [];
     for (let i = 0; i < tableData.length; i++) {
@@ -44,26 +44,4 @@ function plain2Tree(tableData, keys) {
         }
     }
     return res;
-}
-
-var tableData = [{
-    province: '浙江',
-    city: '杭州',
-    name: '西湖'
-}, {
-    province: '四川',
-    city: '成都',
-    name: '锦里'
-}, {
-    province: '四川',
-    city: '成都',
-    name: '方所'
-}, {
-    province: '四川',
-    city: '阿坝',
-    name: '九寨沟'
-}];
-
-var keys = ['province', 'city', 'name'];
-
-plain2Tree(tableData, keys);
+};

@@ -12,7 +12,7 @@
  * @param {Array<Array<number>>} sections 区间
  * @return {boolean} 是否存在交集
  */
-function isSectionCrossed(sections) {
+module.exports = function isSectionCrossed(sections) {
     // 先以区间的左端点为依据进行排序
     let sorted = sections.slice().sort((a, b) => a[0] - b[0]);
     // t 用来记录上一个右区间端点，初始值应该要小于最小值
@@ -27,6 +27,4 @@ function isSectionCrossed(sections) {
         t = max;
     }
     return false;
-}
-
-isSectionCrossed([[100, 200], [200, 300], [250, 400]]);
+};
