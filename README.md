@@ -1,2 +1,1 @@
-# Awful Code
-Collection of My Awful Code &amp; Reconstruction
+# My Little Collection of JavaScript
