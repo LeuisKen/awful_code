@@ -66,4 +66,4 @@ var tableData = [{
 
 var keys = ['province', 'city', 'name'];
 
-console.log(plain2Tree(tableData, keys));
+plain2Tree(tableData, keys);
